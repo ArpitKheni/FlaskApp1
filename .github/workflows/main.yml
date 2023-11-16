@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted [DESKTOP-E3NQ998]
+    runs-on: [DESKTOP-E3NQ998]
 
     steps:
     - uses: actions/checkout@v2  # Checks out your repository
