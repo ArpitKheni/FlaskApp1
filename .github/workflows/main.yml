@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted [self-windows] [self-linux]
+    runs-on: self-hosted [self-windows]
 
     steps:
     - uses: actions/checkout@v2  # Checks out your repository
