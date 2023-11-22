@@ -6,14 +6,7 @@ on:
     
 jobs:
   test:
-       your_job:
-                runs-on: windows-latest
-                        steps:
-      - name: Clean Up
-        run: Remove-Item -Path 'C:\Windows\System32\actions-runner\_work\_tool\Python\3.9.0\x64.complete' -Force
-      - name: Your Other Steps
-        # Continue with your other steps
-        run: ...
+     
     runs-on: self-hosted
 
     steps:
